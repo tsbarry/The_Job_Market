@@ -1,0 +1,201 @@
+company,location,laid off,date,percentage,industry,stage,Raised--$,country
+stripe,SF Bay area,50,8/19/2022,,finance,series H,2300,us
+New relic,SF Bay area,,8/18/2022,5,infrastructure,IPO,214,us
+thirty Madisom,new york city,110,8/18/2022,10,healthcare,series C,209,us
+malwarebytes,SF Bay area,125,8/17/2022,14,security,series B,80,us
+swyftx,brisbane,74,8/17/2022,21,crypto,unknown,,australia
+Tempo automation,SF Bay area,54,8/17/2022,,other,series C,74,us
+genesis,new york city,52,8/17/2022,20,crypto,series A,,us
+warren,porto alegre,50,8/17/2022,,finance,series C,104,brazil
+alayacare,montreal,80,8/16/2022,14,healthcare,series D,293,canada
+piliops,tel aviv,12,8/16/2022,9,data,series D,205,israel
+woven ,indianapolis,5,8/16/2022,15,HR,series A,11,us
+crypto.com,singapore,,8/16/2022,,crypto,unknown,156,us
+edmodo,SF Bay area,,8/16/2022,100,Education,acquired,77,us
+updater,new york city,,8/16/2022,,other,unknown,467,us
+sema4,stamford,250,8/15/2022,13,healthcare,IPO,791,us
+blend,SF Bay area,220,8/15/2022,12,finance,IPO,665,us
+contrafect,new york city,16,8/15/2022,37,healthcare,IPO,380,us
+threadup,chicago,,8/15/2022,15,Retail,IPO,305,us
+anywell,tel aviv,11,8/14/2022,,Real-estate,series A,15,israel
+almanac,SF Bay area,,8/13/2022,,other,series A,45,us
+peloton,new york city,784,08-12-2022,13,fitness,IPO,1900,us
+core scientific,austin,,08-12-2022,10,crypto,IPO,169,us
+orbit,SF Bay area,,08-12-2022,,other,series A,20,us
+truepill,SF Bay area,175,08-11-2022,33,healthcare,series D,255,us
+calm,SF Bay area,90,08-11-2022,20,healthcare,series C,218,us
+marketforce,nairobi,54,08-11-2022,9,Retail,series A,42,kenya
+bettefly,santiago,30,08-11-2022,,healthcare,series C,204,chile
+expert360,sydney,7,08-11-2022,,Recruiting,series C,26,australia
+guidewire,SF Bay area,,08-11-2022,2,finance,IPO,24,us
+permutive,london,30,08-10-2022,12,Marketing,series C,105,uk
+homeward,austin,,08-10-2022,20,Real-estate,series B,160,us
+pollen ,london,,08-10-2022,100,Marketing,series C,238,uk
+vedanta bioscience,boston,,08-10-2022,20,healthcare,series D,301,us
+gohealth,chicago,800,08-09-2022,20,healthcare,IPO,75,us
+hoostsuite,vancouver,400,08-09-2022,30,Marketing,series C,300,canada
+nutanix,SF Bay area,270,08-09-2022,4,infrastructure,IPO,1100,us
+wix,tel aviv,100,08-09-2022,,Marketing,IPO,58,israel
+madeira,curitiba,60,08-09-2022,3,Retail,series E,338,brazil
+melio,new york city,60,08-09-2022,,finance,series D,504,us
+linktree,melbourne,50,08-09-2022,17,consumer,unknown,165,australia
+shogun,SF Bay area,48,08-09-2022,30,Retail,series C,114,us
+absci,vancouver,40,08-09-2022,,healthcare,IPO,237,us
+dooly,vancouver,12,08-09-2022,,sales,series B,102,canada
+berkeley lights,SF Bay area,,08-09-2022,12,healthcare,IPO,272,us
+dailypay,new york city,,08-09-2022,15,finance,unknown,814,us
+haus,SF Bay area,,08-09-2022,100,food,seed,7,us
+kaltura,new york city,,08-09-2022,10,media,IPO,166,us
+shift,SF Bay area,,08-09-2022,,transport,IPO,504,us
+sweetgreen,los angeles,,08-09-2022,,food,IPO,478,us
+groupon,chicago,500,08-08-2022,15,Retail,IPO,1400,us
+loggi,sao paulo,500,08-08-2022,15,logistics,series F,507,brazil
+vroom,new york city,337,08-08-2022,,transport,IPO,1300,us
+warby parker,new york city,69,08-08-2022,,consumer,IPO,535,us
+labelbox,SF Bay area,36,08-08-2022,,data,series D,188,us
+perion,tel aviv,20,08-08-2022,5,Marketing,IPO,76,israel
+daily harvest,new york city,,08-08-2022,15,food,series D,120,us
+datarobot,boston,,08-08-2022,,data,series G,1000,us
+iRobot,boston,140,08-05-2022,10,consumer,acquired,30,us
+RenoRun,montreal,70,08-05-2022,12,construction,series B,163,canada
+mejuri,toronot,50,08-05-2022,10,Retail,series B,28,canada
+uberflip,toronot,31,08-05-2022,17,Marketing,series A,42,canada
+talkdesk,SF Bay area,,08-05-2022,,support,series D,497,us
+article,vancouver,216,08-04-2022,17,Retail,series B,,canada
+jam city,los angeles,200,08-04-2022,17,consumer,unknown,652,us
+10x genomics,SF Bay area,100,08-04-2022,6,healthcare,IPO,242,us
+lead,mumbai,80,08-04-2022,4,Education,series E,166,india
+zendeslk,SF Bay area,80,08-04-2022,,support,acquired,85,us
+on deck,SF Bay area,73,08-04-2022,33,Education,series A,20,us
+RenoRun,montreal,70,08-04-2022,12,construction,series B,163,canada
+Ring central,SF Bay area,50,08-04-2022,,support,IPO,44,us
+doma,SF Bay area,,08-04-2022,13,finance,IPO,679,us
+medly,new york city,,08-04-2022,16,healthcare,series C,100,us
+nomad,sao paulo,,08-04-2022,20,finance,series B,290,brazil
+stubhub,SF Bay area,,08-04-2022,,consumer,acquired,59,us
+weedmaps,los angeles,,08-04-2022,10,other,acquired,,us
+zenius,jakarta,,08-03-2022,30,Education,series B,20,indonesia
+healthcare.com,miami,149,08-03-2022,,healthcare,series C,244,us
+unbounce,vancouver,47,08-03-2022,20,Marketing,series A,39,canada
+beyond meat,los angeles,40,08-03-2022,,food,IPO,122,us
+the org,new delhi,13,08-03-2022,,HR,series B,39,us
+car dekho,gurugram,,08-03-2022,,transport,series E,497,india
+puppet,portland,,08-03-2022,15,infrastructure,acquired,189,us
+sound cloud,berlin,,08-03-2022,20,consumer,unknown,542,germany
+talk walker,luxembourg,,08-03-2022,15,Marketing,private,9,luxembourg
+robinhood,SF Bay area,713,08-02-2022,23,finance,IPO,5600,us
+latch, new york city,115,08-02-2022,37,security,IPO,342,us
+vedantu,bengaluru,100,08-02-2022,,Education,series E,292,india
+seegrid,pittsburgh,90,08-02-2022,,logistics,unknown,107,us
+nylas,SF Bay area,80,08-02-2022,25,product,series C,175,us
+outreach,seattle,60,08-02-2022,5,sales,series G,489,us
+the predictive index,boston,40,08-02-2022,,HR,acquired,71,us
+sendy,nairobi,30,08-02-2022,10,logistics,series B,26,
+stedi,boulder,23,08-02-2022,30,product,series B,75,us
+glossier,new york city,19,08-02-2022,8,Retail,series E,266,us
+butterfly network,new haven,,08-02-2022,10,healthcare,IPO,530,us
+fubo tv,new york city,,08-02-2022,,media,IPO,151,us
+hash,sao paulo,58,08-01-2022,50,finance,series C,58,brazil
+classkick,chicago,,08-01-2022,,Education,seed,1,us
+dehaat,gurugram,,08-01-2022,,food,series D,194,india
+onlyfans,london,,08-01-2022,,media,unknown,,uk
+perceptive automata,boston,,08-01-2022,100,transport,series A,20,us
+whereby,oslo,,08-01-2022,,other,series A,10,norway
+metigy,sydney,75,07-31-2022,100,Marketing,series B,18,australia
+vee,tel aviv,16,07-31-2022,32,HR,seed,15,israel
+gatherly,atlanta,,07-31-2022,50,Marketing,,,us
+ola,bengaluru,1000,07-29-2022,,transport,series J,5000,india
+clearco,toronoto,125,07-29-2022,25,finance,series C,681,canada
+imperfect foods,SF Bay area,50,07-29-2022,,food,series D,229,us
+shelf engine,seattle,43,07-29-2022,,food,unknown,58,us
+sherpa,toronto,22,07-29-2022,,travel,unknown,11,canada
+coin fresh,victoria,,07-29-2022,,crypto,IPO,1700,china
+miss fresh,beijing,,07-29-2022,,food,series C,65,china
+quantcast,SF Bay area,,07-29-2022,6,Marketing,series C,405,us
+ribbon,new york city,136,07-28-2022,,Real-estate,series B,51,us
+career karma,SF Bay area,60,07-28-2022,33,Education,acquired,510,us
+metro mobile,SF Bay area,60,07-28-2022,20,finance,IPO,130,us
+laybuy,auckland,45,07-28-2022,,finance,IPO,202,us
+allbirds,SF Bay area,23,07-28-2022,,Retail,seed,1,candaa
+textnow,waterloo,22,07-28-2022,,consumer,IPO,426,us
+2u,washisngton dc,,07-28-2022,20,Education,series A,12,india
+bikayi,bengaluru,,07-28-2022,,Retail,series D,72,us
+change.org,SF Bay area,,07-28-2022,19,other,acquired,17,us
+tapas media,SF Bay area,,07-28-2022,,media,unknown,491,us
+turn tide,SF Bay area,,07-28-2022,20,energy,IPO,10700,us
+rivian,detroit,840,07-27-2022,6,transport,IPO,307,us
+vox media,washisngton dc,39,07-27-2022,2,media,series F,98,canada
+coinsquare,toronto,30,07-27-2022,24,crypto,unknown,60,isreal
+skai,tel aviv,30,07-27-2022,4,Marketing,series E,122,canada
+shopify,ottawa,100,07-26-2022,10,Retail,IPO,214,germany
+McMakler,berlin,90,07-26-2022,,Real-estate,unknown,111,isreal
+fiverr,tel aviv,60,07-26-2022,8,other,IPO,41,australia
+outbrain,sydney,40,07-26-2022,17,finance,series B,394,us
+outbrain,new york city,38,07-26-2022,3,Marketing,IPO,22,us
+dover,SF Bay area,23,07-26-2022,30,Recruiting,series A,279,australia
+immutable,sydney,20,07-26-2022,6,crypto,series C,409,us
+pear therapeutics,boston,25,07-25-2022,9,healthcare,IPO,272,us
+included health,SF Bay area,,07-25-2022,6,healthcare,series E,18,israel
+soluto,tel aviv,120,07-24-2022,100,support,acquired,69,us
+eucalyptus,sydney,50,07-22-2022,20,healthcare,series C,69,us
+workstream,SF Bay area,45,07-22-2022,,HR,series B,58,brazil
+quanto,sao paulo,28,07-22-2022,22,finance,series A,15,us
+clarify health,SF Bay area,15,07-22-2022,5,healthcare,series D,328,us
+arete,miami,,07-22-2022,,security,unknown,,us
+boosted commerce,los angeles,,07-22-2022,5,Retail,series B,137,us
+owlet,lehi,,07-22-2022,,healthcare,IPO,178,us
+people.ai,SF Bay area,,07-22-2022,,sales,series D,200,us
+wizeline,SF Bay area,,07-22-2022,,product,acquired,62,us
+blockchain.com,london,150,07-21-2022,25,crypto,series D,490,uk
+callisto media,SF Bay area,140,07-21-2022,35,media,series D,,us
+app gate,miami,130,07-21-2022,22,security,IPO,,us
+whoop,boston,95,07-21-2022,15,fitness,series F,404,us
+rad power bikes,seattle,63,07-21-2022,10,transport,series D,329,us
+lunchbox,new york city,60,07-21-2022,33,food,series B,72,us
+realself,seattle,11,07-21-2022,5,healthcare,series B,42,us
+98point6,seattle,,07-21-2022,10,healthcare,series E,247,us
+catalyst,new york city,,07-21-2022,,support,series B,45,us
+invision,new york city,,07-21-2022,50,product,series F,356,us
+mural,SF Bay area,,07-21-2022,,product,series C,192,us
+smarsh,portland,,07-21-2022,,other,private,,us
+just eat takeaway,asmterdamd,390,07-21-2022,,food,IPO,2800,netherland
+flyhomes,seattle,200,07-20-2022,20,Real-estate,series C,310,us
+varo,SF Bay area,75,07-20-2022,,finance,series E,992,us
+bluestacks,SF Bay area,60,07-20-2022,,other,series C,48,us
+lyft,SF Bay area,60,07-20-2022,2,transport,IPO,4900,us
+introhive,ferdericton,57,07-20-2022,16,sales,series C,125,canada
+zencity,tel aviv,30,07-20-2022,20,other,unknown,51,israel
+splice,new york city,23,07-20-2022,,media,series D,159,us
+forma.ai,toronto,15,07-20-2022,9,sales,series B,58,canada
+arc,SF Bay area,13,07-20-2022,,HR,seed,1,us
+invitae,SF Bay area,1000,07-19-2022,,healthcare,IPO,2000,us
+olive,columbus,450,07-19-2022,31,healthcare,series H,856,us
+M1,chicago,38,07-19-2022,,finance,seriesE,323,us
+sellerX,berlin,28,07-19-2022,,Retail,unknown,766,germany
+stint,london,28,07-19-2022,20,HR,unknown,,uk
+capsule,new york city,,07-19-2022,13,healthcare,seriesD,570,us
+pact pharma,SF Bay area,94,07-18-2022,,healthcare,series C,200,us
+gemini,new york city,68,07-18-2022,7,crypto,unknown,423,us
+lusha,new york city,30,07-18-2022,10,Marketing,series B,245,us
+elemy,SF Bay area,,07-18-2022,,food,series B,323,us
+freshy,new york city,,07-18-2022,25,fitness,acquired,107,us
+hydrow,boston,,07-18-2022,35,healthcare,series D,269,us
+tiktok,los angeles,,07-18-2022,,healthcare,acquired,,us
+vimeo,new york city,,07-18-2022,6,consumer,IPO,450,us
+bright money,bengaluru,100,07-15-2022,50,finance,series A,31,india
+project44,chicago,63,07-15-2022,5,logistics,unknown,817,us
+heroes,london,24,07-15-2022,20,Retail,unknown,265,us
+aspire,SF Bay area,23,07-15-2022,,Marketing,series A,27,us
+styleseat,SF Bay area,,07-15-2022,17,consumer,series C,40,us
+zego,london,85,07-14-2022,17,finance,series C,202,uk
+mom project,chicago,54,07-14-2022,15,HR,series C,115,us
+unstoppable,SF Bay area,42,07-14-2022,25,crypto,series B,7,us
+kiavi,SF Bay area,39,07-14-2022,7,Real-estate,series E,240,us
+alto pharmacy,SF Bay area,,07-14-2022,,healthcare,series E,560,us
+cosuno,berlin,,07-14-2022,,construction,series B,45,germany
+opensea,new york city,,07-14-2022,20,crypto,series C,427,us
+wave,dakar,300,07-13-2022,15,finance,series A,292,us
+tonal,SF Bay area,262,07-13-2022,35,fitness,series E,450,us
+fabric,new york city,120,07-13-2022,40,logistics,series C,336,us
+bryter,berlin,100,07-13-2022,30,product,series B,89,germany
+chownow,los angeles,100,07-13-2022,,food,series C,64,us
