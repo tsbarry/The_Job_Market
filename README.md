@@ -1,19 +1,16 @@
 # THE ECONOMY & YOU
 
-Python ETL outline to outline outlooks of Data Analyst Jobs for ____?____ to ___?___
+Python ETL outline to outline outlooks of Data Analyst Jobs for 2022 
 
 NOTE: Previledged data is usually hidded to maintain data integrity but we will be using public data.
 
 # Extract.py
-This file holds code meant to pull data from our data source regarding job titles and the affiliated values including salaries, retention, aplicant info and turn it into a csv format we can clean and utilise later.
-
-An initial connection to the data is read into the file from the created variable "_____?____".
+This file holds code used to pull data from our data source regarding job titles and the affiliated values including salaries, company affiliation, applicant info and turn it into a csv format we can clean and utilise later.
 
 NOTE: Nulls will still be present and the new final joined data will be writing in as a new csv file to the "Data" folder as a file titled "Joined_data.csv" but not yet cleaned.
 
-
 # Transform.ipynb
-This file holds code used to develop and clean the acummulation of the merged data file "Joined_data.csv, soucred from Amazon RDS and stored in the Data folder created buy the code in the Extract.py file.
+This file holds code used to develop and clean the accummulation of the merged data file "Joined_data.csv, soucred from the BusinessAnalyst.csv and stored in the Data folder created by the code in the Extract.py file.
 
 To do this the data will be imported using the pandas module, missing values are identified and dropped to produce clean data.
 The new data is written into the file by using a binary encoder while token key is transformed.
