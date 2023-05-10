@@ -9,7 +9,7 @@ create table economy.state
 (
 	state_id int primary key,
 	city varchar (100),
-	state_name varchar (50)
+	state varchar (50)
 
 );
 
