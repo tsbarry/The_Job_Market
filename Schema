@@ -27,10 +27,10 @@ create table economy.job
 (
 	job_id int primary key,
 	job_title varchar(100),
-	avg_salary int,
-    min_salary int,
-    max_salary int,
-	easy_apply int,
+	avg_salary float,
+    min_salary float,
+    max_salary float,
+	easy_apply float,
 	company_id foreign key,
 	state_id foreign key, 
 	 
