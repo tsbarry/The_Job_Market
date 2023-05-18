@@ -19,7 +19,7 @@ create table economy.company
 	company_id int PRIMARY KEY,
 	state_id int REFERENCES economy.state(state_id),
     company_name varchar (100),
-	rating int,
+	rating float,
 	size varchar (100),
 	headquarter char (50),
 	founded int,
