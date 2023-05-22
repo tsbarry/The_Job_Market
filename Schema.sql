@@ -26,7 +26,7 @@ create table economy.company
 	Type_of_ownership varchar (100),
 	industry varchar (100),
 	sector varchar (100),
-	revenue int
+	revenue varchar (100)
 	
 );
 
