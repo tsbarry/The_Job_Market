@@ -24,7 +24,7 @@ with conn.cursor() as cursor:
     with open('data/state.csv', 'r') as f:    
         cmd = 'COPY economy.state(state_id, city, state) FROM STDIN WITH (FORMAT CSV, HEADER TRUE)'
     
-        #cursor.copy_expert(cmd, f)
+        cursor.copy_expert(cmd, f)
     conn.commit()
     
     with open('data/company.csv', 'r') as s:    
@@ -34,7 +34,7 @@ with conn.cursor() as cursor:
     conn.commit()
 
     with open('data/job.csv', 'r') as t:    
-        cmd = 'COPY economy.job("Job_id","Job Title", "Easy Apply", "Avg_Salary","Min_Salary", "Max_Salary") FROM STDIN WITH (FORMAT CSV, HEADER TRUE)'
+        cmd = 'COPY economy.job("job_id", "easy_apply", "avg_salary","min_salary", "max_salary") FROM STDIN WITH (FORMAT CSV, HEADER TRUE)'
     
         cursor.copy_expert(cmd, t)
     conn.commit()

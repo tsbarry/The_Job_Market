@@ -25,7 +25,7 @@ create table economy.company
 	founded float,
 	Type_of_ownership varchar (100),
 	industry varchar (100),
-	sector varchar (100),
+	sector varchar (255),
 	revenue varchar (100)
 	
 );
@@ -33,7 +33,6 @@ create table economy.company
 create table economy.job 
 (
 	job_id int primary key,
-	job_title varchar(100),
 	avg_salary float,
     min_salary float,
     max_salary float,
