@@ -22,7 +22,7 @@ create table economy.company
 	rating float,
 	size varchar (100),
 	headquarter char (50),
-	founded int,
+	founded float,
 	Type_of_ownership varchar (100),
 	industry varchar (100),
 	sector varchar (100),
