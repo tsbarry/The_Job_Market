@@ -9,7 +9,7 @@ create table economy.state
 (
 	state_id int primary key,
 	city varchar (100),
-	state_name varchar (50)
+	state varchar (50)
 
 );
 
@@ -19,21 +19,20 @@ create table economy.company
 	company_id int PRIMARY KEY,
 	state_id int REFERENCES economy.state(state_id),
     company_name varchar (100),
-	rating int,
+	rating float,
 	size varchar (100),
 	headquarter char (50),
-	founded int,
+	founded float,
 	Type_of_ownership varchar (100),
 	industry varchar (100),
-	sector varchar (100),
-	revenue int
+	sector varchar (255),
+	revenue varchar (100)
 	
 );
 
 create table economy.job 
 (
 	job_id int primary key,
-	job_title varchar(100),
 	avg_salary float,
     min_salary float,
     max_salary float,
