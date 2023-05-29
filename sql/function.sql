@@ -12,11 +12,6 @@ CREATE OR REPLACE FUNCTION economy.print_avg_salary() RETURNS FLOAT AS $$
 LANGUAGE plpgsql;
 
 
-listed below are the SQL functions we should work on for this week. We'll talk more about these during class:
-Return the average and median salary of a business analyst. 
-Return the company name with the highest job postings, along with respective count of job postings,
-Return the name of the job title that appears most often in your database.
-
 CREATE OR REPLACE FUNCTION GetCompaniesWithRatingAbove(threshold NUMERIC)
 RETURNS TABLE (company_name Varchar(255), rating NUMERIC) AS $$ 
 BEGIN
@@ -59,7 +54,9 @@ $$ LANGUAGE plpgsql;
 CREATE OR REPLACE FUNCTION GetJobStatsByCity(city TEXT)
 RETURNS TABLE (avg_salary NUMERIC, min_salary NUMERIC, max_salary NUMERIC) AS $$
 BEGIN
-  RETURN QUERY SELECT AVG(Avg_Salary), MIN(Min_Salary), MAX(Max_Salary) FROM your_table_name
+  RETURN QUERY 
+  SELECT AVG(Avg_Salary), MIN(Min_Salary), MAX(Max_Salary) 
+  FROM your_table_name
                WHERE City = city;
 END;
 $$ LANGUAGE plpgsql;
