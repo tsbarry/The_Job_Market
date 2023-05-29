@@ -16,7 +16,7 @@ Job_id,Rating,Company_id,Company Name,Size,Founded,Type of ownership,Industry,Se
 14,4.2,14,Efficio,201 to 500 employees,2000.0,Company - Private,Consulting,Business Services,$50 - $100 million ,,107000.0,56000.0,102000.0,14,New York,NY,United Kingdom
 15,3.1,15,Upfield,1001 to 5000 employees,1871.0,Company - Private,Food & Beverage Manufacturing,Manufacturing,,1.0,107000.0,56000.0,102000.0,15,Hackensack,NJ,Netherlands
 16,3.7,16,Mesirow Financial,501 to 1000 employees,1937.0,Company - Private,Investment Banking & Asset Management,Finance,$100 - $500 million ,,107000.0,56000.0,102000.0,16,New York,NY,IL
-17,3.8,17,Visiting Nurse Service of New York,10000+  employees,1893.0,Nonprofit Organization,Health Care Services & Hospitals,Health Care,$2 - $5 billion ,,107000.0,56000.0,102000.0,17,New York,NY,NY
+17,3.8,17,Visiting Nurse Service of New York,10000+ employees,1893.0,Nonprofit Organization,Health Care Services & Hospitals,Health Care,$2 - $5 billion ,,107000.0,56000.0,102000.0,17,New York,NY,NY
 18,3.8,18,NYSTEC,51 to 200 employees,1996.0,Nonprofit Organization,Consulting,Business Services,$25 - $50 million ,,107000.0,56000.0,102000.0,18,New York,NY,NY
 19,3.4,19,Venmo,51 to 200 employees,2009.0,Company - Public,Financial Transaction Processing,Finance,,,107000.0,56000.0,102000.0,19,New York,NY,NY
 20,3.6,20,Jefferies Financial Group Inc.,1001 to 5000 employees,1962.0,Company - Public,Investment Banking & Asset Management,Finance,$2 - $5 billion ,,107000.0,56000.0,102000.0,20,New York,NY,NY
