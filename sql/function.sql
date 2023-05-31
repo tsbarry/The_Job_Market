@@ -1,51 +1,32 @@
 
-CREATE OR REPLACE FUNCTION GetCompaniesWithRatingAbove(threshold NUMERIC)
-RETURNS TABLE (company_name Varchar(255), rating NUMERIC) AS $$ 
+CREATE OR REPLACE FUNCTION economy.GetCompaniesWithRatingAbove(threshold float)
+RETURNS TABLE (company_name Varchar(255), rating float) AS $$ 
 BEGIN
   RETURN QUERY 
-  SELECT "Company Name", "Rating"
-  FROM Company
-  WHERE Rating > threshold; 
+  SELECT company.company_name, company.rating
+  FROM economy.company
+  WHERE company.rating > threshold; 
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE OR REPLACE FUNCTION GetJobsByIndustry(industry TEXT)
-RETURNS TABLE (job_id INTEGER, job_title Varchar(255), company_name TEXT) AS $$
+CREATE OR REPLACE FUNCTION economy.GetJobDetails(job_titles TEXT)
+RETURNS TABLE (job_title TEXT, min_salary float, max_salary float, avg_salary float) AS $$
 BEGIN
   RETURN QUERY 
-  SELECT "Job_id", "Job_Title", "Company_id", "Company Name" 
-  FROM job, company
-  WHERE Industry = industry;
+  SELECT job.job_title, job.min_salary, job.max_salary, job.avg_salary 
+  FROM economy.job
+  WHERE job.job_title in (job_titles);
 END;
 $$ LANGUAGE plpgsql;
+SELECT economy.GetJobDetails('Business Analyst');
 
-
-CREATE OR REPLACE FUNCTION GetJobDetails(job_title TEXT)
-RETURNS TABLE (job_title TEXT, min_salary NUMERIC, max_salary NUMERIC) AS $$
+CREATE OR REPLACE FUNCTION economy.GetjobTitleThatAppearsMost(jobs TEXT)
+RETURNS TABLE (job_title TEXT) AS $$
 BEGIN
   RETURN QUERY 
-  SELECT "Job_Title", "Min_Salary", "Max_Salary"
-  FROM job
-  WHERE job_title = Business Analyst; 
+  SELECT job.job_title
+  FROM economy.job 
+  GROUP BY job.job_title 
+  ORDER BY count(job_title) DESC;
 END;
-$$ LANGUAGE plpgsql;
-
-CREATE OR REPLACE FUNCTION GetCompaniesByState(state TEXT)
-RETURNS TABLE (company_name TEXT, city TEXT) AS $$
-BEGIN
-  RETURN QUERY 
-  SELECT "Company Name", "City"
-  FROM state
-  WHERE State = state;
-END;
-$$ LANGUAGE plpgsql;
-
-CREATE OR REPLACE FUNCTION GetJobStatsByCity(city TEXT)
-RETURNS TABLE (avg_salary NUMERIC, min_salary NUMERIC, max_salary NUMERIC) AS $$
-BEGIN
-  RETURN QUERY 
-  SELECT AVG(Avg_Salary), MIN(Min_Salary), MAX(Max_Salary) 
-  FROM state
-  WHERE City = city;
-END;
-$$ LANGUAGE plpgsql;
+$$ LANGUAGE plpgsql; 
