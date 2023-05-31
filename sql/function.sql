@@ -13,20 +13,20 @@ CREATE OR REPLACE FUNCTION GetJobsByIndustry(industry TEXT)
 RETURNS TABLE (job_id INTEGER, job_title Varchar(255), company_name TEXT) AS $$
 BEGIN
   RETURN QUERY 
-  SELECT "Job_id", "Job Title", "Company Name" 
-  FROM job
+  SELECT "Job_id", "Job_Title", "Company_id", "Company Name" 
+  FROM job, company
   WHERE Industry = industry;
 END;
 $$ LANGUAGE plpgsql;
 
 
-CREATE OR REPLACE FUNCTION GetJobDetails(job_id INTEGER)
-RETURNS TABLE (job_title TEXT, company_name TEXT, min_salary NUMERIC, max_salary NUMERIC) AS $$
+CREATE OR REPLACE FUNCTION GetJobDetails(job_title TEXT)
+RETURNS TABLE (job_title TEXT, min_salary NUMERIC, max_salary NUMERIC) AS $$
 BEGIN
   RETURN QUERY 
-  SELECT "Job Title", "Company Name", "Min_Salary", "Max_Salary"
+  SELECT "Job_Title", "Min_Salary", "Max_Salary"
   FROM job
-  WHERE Job_id = job_id; 
+  WHERE job_title = Business Analyst; 
 END;
 $$ LANGUAGE plpgsql;
 
@@ -45,7 +45,7 @@ RETURNS TABLE (avg_salary NUMERIC, min_salary NUMERIC, max_salary NUMERIC) AS $$
 BEGIN
   RETURN QUERY 
   SELECT AVG(Avg_Salary), MIN(Min_Salary), MAX(Max_Salary) 
-  FROM your_table_name
+  FROM state
   WHERE City = city;
 END;
 $$ LANGUAGE plpgsql;

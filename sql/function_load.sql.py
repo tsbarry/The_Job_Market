@@ -16,7 +16,7 @@ with conn.cursor() as cursor:
     # READ FILES IN PYTHON
     with open('sql/function.sql', 'r') as functions:
         queries = functions.read()
-        cursor.execute(functions)
+        cursor.execute(queries)
     # commit changes (try)
     try:
         conn.commit()

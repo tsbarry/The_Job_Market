@@ -21,11 +21,11 @@ def main():
         
         result = ''
         if entry == '1':
-            result = session.query(func.your_schema.your_function_name()).all()
+            result = session.query(func.economy.GetCompaniesWithRatingAbove()).all()
         elif entry == '2':
-            result = session.query(func.your_schema.your_function_name()).all()
+            result = session.query(func.economy.GetJobsByIndustry()).all()
         elif entry == '3':
-           result = session.query(func.your_schema.your_function_name()).all()
+           result = session.query(func.economy.GetJobDetails()).all()
         elif entry == 'E':
             print("Exiting")
             break

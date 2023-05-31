@@ -33,6 +33,7 @@ create table economy.company
 create table economy.job 
 (
 	job_id int primary key,
+	job_title Text,
 	avg_salary float,
     min_salary float,
     max_salary float,

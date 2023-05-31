@@ -34,7 +34,7 @@ with conn.cursor() as cursor:
     conn.commit()
 
     with open('data/job.csv', 'r') as t:    
-        cmd = 'COPY economy.job("job_id", "easy_apply", "avg_salary","min_salary", "max_salary") FROM STDIN WITH (FORMAT CSV, HEADER TRUE)'
+        cmd = 'COPY economy.job("job_id", "job_title", "easy_apply", "avg_salary","min_salary", "max_salary") FROM STDIN WITH (FORMAT CSV, HEADER TRUE)'
     
         cursor.copy_expert(cmd, t)
     conn.commit()
