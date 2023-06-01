@@ -13,11 +13,7 @@ params = {
     "port" : "5432"     
 }
 
-
-# ** --> dictionary unpacking!
 conn = psycopg2.connect(**params)
-
-# with is something called a context manager : opens and closes a connection for you
 
 with conn.cursor() as cursor:
     
