@@ -6,22 +6,20 @@ To start we had to clean the cvs file, using python functions and libraries, the
 
 ## Visuals & Results
 
-![](image/job_offeres_by_state.jpg) 
+![](code/image/job_offeres_by_state.jpg) 
 
 This vizual illustrate the number of jobs offered by states and its a bit surprising to see that Texas is the state that offers the most data or business analyst jobs compare to states such as Califirnia and New York. This could mean that lot of companies are installing themselves in the south such as Texas and Arizona, and candidates looking for these jobs should be prepared to relocate. 
 
-![](image/avg_salary.jpg)
+![](code/image/avg_salary.jpg)
 
 This box plot demonstrate the average salaries in different states. Base on this observation states such as California, New York and Illinois still offer a higher salary despite Texas and Arizona being the states that are offering the most jobs. 
 
-![](image/avg_salary_sectors.jpg)
+![](code/image/avg_salary_sectors.jpg)
 
 This bar graph display the average salaries by sectors and it is interesting to see sectors such as media, retail, manufacturing, IT and health care with very good average salaries because these are sectors that many people will tend to work in however some will not know that a sector like retail do use data or business analyst. Usually people only tend to apply to only tech sectors but this demonstrate that there are many sectors that need and use analyst. 
 
-![](image/min_max_salary.jpg)
+![](code/image/min_max_salary.jpg)
 
 This hisplot show a side to side of the minimun and maximun salary. Base on the observation the mode of the minimum salary is at 52k and the mean a little higher therefore one can negotiate for a better salary, and mode of the maximum is around the 85k and the mean is close to the 100k. In both these plots they are right skewed and not normally distributed, maybe by removing outliers we could get a normal distribution.
-
-
 
 https://public.tableau.com/app/profile/ari.de.la.mar/viz/ECONPROJECT_16867776094300/Dashboard2?publish=yes 
