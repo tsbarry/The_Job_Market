@@ -22,4 +22,4 @@ This bar graph displays the average salaries by sector and it is interesting to 
 
 This hisplot shows the minimum and maximum salary. Based on the observation the mode of the minimum salary is at 52k and the mean is a little higher therefore one can negotiate for a better salary, and mode of the maximum is around 85k and the mean is close to 100k. In both these plots they are right skewed and not normally distributed, maybe by removing outliers, we could get a normal distribution.
 
-https://public.tableau.com/app/profile/ari.de.la.mar/viz/ECONPROJECT_16867776094300/Dashboard2?publish=yes 
+https://public.tableau.com/app/profile/ari.de.la.mar/viz/ECONPROJECT_16867776094300/Dashboard5?publish=yes
