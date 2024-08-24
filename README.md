@@ -1,25 +1,88 @@
-## The Economy
-This project aims to gain insight into the job market for analyst roles such as data analyst, business analyst, and others, by generating an ETL, EDA, and CDA  pipeline. This research will help us current data analysts to evaluate the salary outcome of data analysts the impact of a company rating on salary and also jobs and salaries offered by sectors and states. This insight will also be beneficial to The Knowlege House and future data analyst fellows in their search for Data roles. The project is built using PostgresSQL, sqlalchemy, sklearn, sklearn.linear_model,sklearn.metrics, sklearn.tree, tableau, and python’s libraries such as pandas, matplotlib, numpy and seaborn. 
+# The Job Market
 
-## Methodology
-To start we had to clean the CVS file, using Python functions and libraries, then dropped all the null values and changed some of the data types. We saved the new and clean file into the data folder as clean_data.csv. In addition, after cleaning we created a schema and wrote a function that will open the schema in an aws database. Moreover, using SQLAlchemy we extract the data from the database and perform EDA and then CDA for prediction by doing a linear regression, lasso regression, and a decision tree. Lastly, using the information we gained from the EDA and CDA we made a Tableau visualization to display insight from the data.  
+## Table of Contents 
 
-## Visuals & Results
+- [Project Overview](#project-overview)
+- [Data Sources ](#data-sources)
+- [Tools](#tools)
+- [Methodology](#methodology)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis) 
+- [Results Findings](#results-findings)
+- [Recommendations](#recommendations)
+- [Next Action](#next-action)
+- [Tableau](#tableau)
+
+## Project Overview 
+
+This project seeks to provide valuable insights into the job market for analyst roles, including data analysts, business analysts, and similar positions, by developing a comprehensive ETL (Extract, Transform, Load), EDA (Exploratory Data Analysis), and CDA (Confirmatory Data Analysis) pipeline. The research aims to help current data analysts assess salary outcomes, understand the impact of company ratings on salaries, and analyze the distribution of jobs and salaries across different sectors and states.
+
+The findings will not only support existing data analysts in making informed career decisions but will also serve as a resource for The Knowledge House and future data analyst fellows as they navigate their search for data-related roles.
+
+## Data Sources 
+
+Data: The primary dataset used for this analysis is in the data folder. The data was collected from Kaggle.
+
+## Tools 
+
+- PostgreSQL - relational database management system (RDBMS) used to manage structured data. 
+- SQLAlchemy - For querying and extracting data from the database. 
+- Sklearn - For implementing machine learning algorithms and models.
+  - sklearn.linear_model
+  - sklearn.metrics
+  - sklearn.tree
+- Tableau - For data visualization and dashboard. 
+- Python Libraries: For data manipulation, analysis, and visualization.
+  - pandas
+  - matplotlib
+  - NumPy
+  - seaborn
+
+## Methodology 
+  In the data analysis phase, the following tasks were performed:
+  
+  1. Data loading and inspection.
+  2. Cleaned the CSV file using Python functions and libraries. This involved dropping all null values, changing data types where necessary, and ensuring consistency throughout the dataset. The cleaned data was saved as clean_data.csv in the data folder for further processing.
+  3. After cleaning the data, we created a schema and wrote a function to open this schema in an AWS database. This allowed us to efficiently store and manage the cleaned data for subsequent analysis.
+  4. Using SQLAlchemy, we extracted the data from the AWS database. Then conducted Exploratory Data Analysis (EDA) to identify key patterns, trends, and relationships within the data. For Confirmatory Data Analysis (CDA), we implemented predictive modeling using linear regression, lasso regression, and decision tree algorithms to validate and predict outcomes based on the data.
+  6. Based on the insights gained from EDA and CDA, we created a Tableau dashboard. The visualization highlights key insights and trends in the data, making it easier to interpret and communicate the results.
+
+## Exploratory Data Analysis
+
+EDA involved exploring the data to answer key questions such as: 
+
+- What are the different salaries for analysts across various states?
+
+- Which sectors offer the most analyst roles, and what are the associated salaries?
+
+- Which companies are offering the most analyst jobs?
+
+- Which state provides the most opportunities for analyst roles?
+
+- Does the rating of a company have an impact on the salaries offered?
+
+##  Data Analysis 
 
 ![](code/image/job_offeres_by_state.jpg) 
 
-This visual illustrates the number of jobs offered by states and it's a bit surprising to see that Texas is the state that offers the most data or business analyst jobs compared to states such as California and New York. This could mean that lot of companies are installing themselves in the south such as Texas and Arizona, and candidates looking for these jobs should be prepared to relocate. 
+This visualization illustrates the number of analyst jobs offered by different states. Surprisingly, Texas emerges as the state with the highest number of data and business analyst job opportunities, surpassing traditionally dominant states like California and New York. This trend may indicate that many companies are increasingly establishing operations in southern states like Texas and Arizona. Consequently, candidates seeking these roles should be prepared to consider relocation to these emerging job markets.
 
 ![](code/image/avg_salary.jpg)
 
-This box plot demonstrates the average salaries in different states. Based on this observation states such as California, New York, and Illinois still offer a higher salary despite Texas and Arizona being the states that are offering the most jobs. 
+This box plot demonstrates the average salaries for analyst roles across different states. The observation reveals that despite Texas and Arizona offering the most job opportunities, states like California, New York, and Illinois continue to offer higher average salaries. This suggests that while job availability is increasing in southern states, traditional hubs still provide more competitive compensation.
 
 ![](code/image/avg_salary_sectors.jpg)
 
-This bar graph displays the average salaries by sector and it is interesting to see sectors such as media, retail, manufacturing, IT and health care with very good average salaries because these are sectors that many people will tend to work in however some will not know that a sector like retail does use data or business analyst. Usually, people only tend to apply to only tech sectors but this demonstrates that there are many sectors that need and use analysts. 
+This bar graph displays the average salaries by sector, revealing that industries such as media, retail, manufacturing, IT, and healthcare offer competitive salaries for analyst roles. It's interesting to note that sectors like retail, which some may not typically associate with data or business analysis, also provide strong salary opportunities. This insight highlights the broader demand for analysts across various industries, suggesting that candidates should consider a wider range of sectors beyond just tech when exploring career opportunities. 
 
 ![](code/image/min_max_salary.jpg)
 
-This hisplot shows the minimum and maximum salary. Based on the observation the mode of the minimum salary is at 52k and the mean is a little higher therefore one can negotiate for a better salary, and mode of the maximum is around 85k and the mean is close to 100k. In both these plots they are right skewed and not normally distributed, maybe by removing outliers, we could get a normal distribution.
+This histogram displays the distribution of minimum and maximum salaries for analyst roles. The mode of the minimum salary is around $52K, with the mean slightly higher, suggesting room for salary negotiation. The mode of the maximum salary is around $85K, with the mean close to $100K. Both distributions are right-skewed and not normally distributed, indicating that by removing outliers, we might achieve a more normal distribution.
+
+## Results Findings
+The analysis results are summarized as follows:
+
+
+
 
 https://public.tableau.com/app/profile/ari.de.la.mar/viz/ECONPROJECT_16867776094300/Dashboard5?publish=yes
